@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+venv/
+sentiment_model/
+gpt2-npc-model
+train_data1.txt/
+train_data1.txt/
+results/
+train_data2.txt/
