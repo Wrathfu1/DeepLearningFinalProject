@@ -57,7 +57,7 @@ if __name__ == "__main__":
             print(row)
     else:
         # Send the persona and message to the chatbot
-        print(f"You ({persona}): {message}")
+        print(f"You : {message}")
         print(f"Chatbot response: {response['response']}")
-        print(f"Sentiment: {response['sentiment']}")
+        print(f"Persona: {response['persona']}")
 

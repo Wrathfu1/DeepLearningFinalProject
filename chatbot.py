@@ -91,7 +91,7 @@ def chat():
         response = tokenizer.decode(gen_ids, skip_special_tokens=True).strip()
         print(f"Response: {response}")
 
-    return jsonify({"response": response, "sentiment": personality_prefix})
+    return jsonify({"response": response, "persona": personality_prefix})
 
 
 @app.route('/evaluate', methods=['POST'])
